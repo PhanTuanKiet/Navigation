@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainActivity">
+
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.ptkiet.new_navigation.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/start_fragment"
+        android:name="com.ptkiet.new_navigation.start_fragment"
+        android:label="fragment_start_fragment"
+        tools:layout="@layout/fragment_start_fragment" />
+</resources>
